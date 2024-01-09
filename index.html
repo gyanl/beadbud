@@ -8,9 +8,19 @@
     <div id="grid"></div>
     <div id="palette"></div>
 
-    <input type="file" id="imageUploader" accept="image/*" />
-    <button id="uploadButton">Upload and Process Image</button>
+
+    <input type="file" id="imageUploader" accept="image/*" /><p>
+    <button id="uploadButton">Move Image to Canvas</button>
     <canvas id="canvas" style="display: none;"></canvas>
+
+        <!-- Sliders for HSL adjustments -->
+
+        Red
+        <input type="range" id="redSlider" min="-64" max="64" value="0">
+        Green
+        <input type="range" id="greenSlider" min="-64" max="64" value="0">
+        Blue
+        <input type="range" id="blueSlider" min="-64" max="64" value="0">
 
     <script src="script.js"></script>
 </body>

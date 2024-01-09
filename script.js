@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Create array of 10 color
     const colors = [];
     loadStandardColors();
-    loadPastelColors();
+    //loadPastelColors();
 
 
     // Function to load standard colors
